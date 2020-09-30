@@ -13,3 +13,6 @@
 [submodule "pack/dvim/opt/nvim-treesitter"]
 	path = pack/dvim/opt/nvim-treesitter
 	url = git@github.com:nvim-treesitter/nvim-treesitter.git
+[submodule "pack/dvim/opt/dracula"]
+	path = pack/dvim/opt/dracula
+	url = git@github.com:dracula/vim.git

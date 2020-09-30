@@ -5,7 +5,6 @@ command! Config execute ":e $MYVIMRC"
 command! Reload execute "source $MYVIMRC"
 
 " Standard
-syntax on
 set number relativenumber
 set scrolloff=15
 set mouse=a
@@ -13,6 +12,11 @@ set termguicolors
 set showtabline=2
 set cursorline
 set autoread
+
+" Theme
+packadd dracula
+syntax on
+colorscheme dracula
 
 " Treesitter
 packadd nvim-treesitter
