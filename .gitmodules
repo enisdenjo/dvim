@@ -1,0 +1,15 @@
+[submodule "pack/dvim/opt/nvim-lspconfig"]
+	path = pack/dvim/opt/nvim-lspconfig
+	url = git@github.com:neovim/nvim-lspconfig.git
+[submodule "pack/dvim/opt/completion-nvim"]
+	path = pack/dvim/opt/completion-nvim
+	url = git@github.com:nvim-lua/completion-nvim.git
+[submodule "pack/dvim/opt/lsp-status.nvim"]
+	path = pack/dvim/opt/lsp-status.nvim
+	url = git@github.com:nvim-lua/lsp-status.nvim.git
+[submodule "pack/dvim/opt/diagnostic-nvim"]
+	path = pack/dvim/opt/diagnostic-nvim
+	url = git@github.com:nvim-lua/diagnostic-nvim.git
+[submodule "pack/dvim/opt/nvim-treesitter"]
+	path = pack/dvim/opt/nvim-treesitter
+	url = git@github.com:nvim-treesitter/nvim-treesitter.git
