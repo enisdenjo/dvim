@@ -32,8 +32,9 @@ packadd completion-nvim
 lua require("lsp")
 
 " Diagnostic
-let g:diagnostic_show_sign = 1
 let g:diagnostic_enable_virtual_text = 1
+let g:diagnostic_insert_delay = 1
+autocmd CursorHold * lua vim.lsp.util.show_line_diagnostics()
 
 " Statusline
 function! LspStatus() abort
