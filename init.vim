@@ -44,9 +44,8 @@ function! LspStatus() abort
 endfunction
 set statusline+=\ %{LspStatus()}
 
-" Set completeopt and omnifunc to have a better completion experience
+" Set completeopt to have a better completion experience
 set completeopt=menuone,noinsert
-set omnifunc=v:lua.vim.lsp.omnifunc
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
