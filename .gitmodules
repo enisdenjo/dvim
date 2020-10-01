@@ -52,3 +52,6 @@
 [submodule "pack/dvim/start/vim-smoothie"]
 	path = pack/dvim/start/vim-smoothie
 	url = git@github.com:psliwka/vim-smoothie.git
+[submodule "pack/dvim/opt/vim-airline"]
+	path = pack/dvim/opt/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git

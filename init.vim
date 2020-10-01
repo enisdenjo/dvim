@@ -38,13 +38,8 @@ let g:diagnostic_insert_delay = 1
 autocmd CursorHold * lua vim.lsp.util.show_line_diagnostics()
 
 " Statusline
-function! LspStatus() abort
-  if luaeval('#vim.lsp.buf_get_clients() > 0')
-    return luaeval("require('lsp-status').status()")
-  endif
-  return ''
-endfunction
-set statusline+=\ %{LspStatus()}
+packadd vim-airline
+" TODO: integrate with lsp-status or diagnostic-nvim
 
 " Set completeopt to have a better completion experience
 set completeopt=menuone,noinsert
