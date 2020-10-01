@@ -12,6 +12,7 @@ set termguicolors
 set showtabline=2
 set cursorline
 set autoread
+set splitright
 
 " Theme
 packadd dracula
