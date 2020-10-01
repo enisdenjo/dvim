@@ -57,9 +57,8 @@ map Y y$
 " Refresh GitGutter on every save
 autocmd BufWritePost * GitGutter
 
-" Simple tab navigation with <C-h> and <C-l> to intuitively go left and right
-map <C-h> :tabp<CR>
-map <C-l> :tabn<CR>
+" Bind ":W" to show window palette immediately
+nmap :W :W<CR>
 
 " Let The :Files command show all files in the repo (including dotfiles)
 let $FZF_DEFAULT_COMMAND = 'rg --files --hidden --glob "!.git/*"'
