@@ -37,3 +37,9 @@
 [submodule "pack/dvim/start/vim-commentary"]
 	path = pack/dvim/start/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
+[submodule "pack/dvim/start/vim-signature"]
+	path = pack/dvim/start/vim-signature
+	url = git@github.com:kshenoy/vim-signature.git
+[submodule "pack/dvim/start/vim-peekaboo"]
+	path = pack/dvim/start/vim-peekaboo
+	url = git@github.com:junegunn/vim-peekaboo.git
