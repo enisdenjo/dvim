@@ -60,10 +60,10 @@ autocmd BufWritePost * GitGutter
 " Bind ":W" to show window palette immediately
 nmap :W :W<CR>
 
-" Let The :Files command show all files in the repo (including dotfiles)
+" Let The ":Files" command show all files in the repo (including dotfiles)
 let $FZF_DEFAULT_COMMAND = 'rg --files --hidden --glob "!.git/*"'
 
-" Bind Ctrl-P to a fzf-powered filename search
+" Bind "Ctrl-P" to a fzf-powered filename search
 map <C-p> :Files<CR>
 
 " Bind "//" to a fzf-powered buffer search
