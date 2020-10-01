@@ -2,7 +2,7 @@
   "Badge Text" : "",
   "Custom Directory" : "Recycle",
   "Working Directory" : "\/Users\/enisdenjo",
-  "Prompt Before Closing 2" : false,
+  "Prompt Before Closing 2" : 1,
   "Selected Text Color" : {
     "Green Component" : "0",
     "Blue Component" : "0",
@@ -201,7 +201,7 @@
   "Terminal Type" : "xterm-256color",
   "Horizontal Spacing" : 1,
   "Option Key Sends" : 0,
-  "Custom Icon Path" : "\/Users\/enisdenjo\/Develop\/src\/github.com\/enisdenjo\/dvim\/nvim-logo.png",
+  "Custom Icon Path" : "\/Users\/enisdenjo\/.local\/share\/nvim\/site\/nvim-logo.png",
   "Ansi 15 Color" : {
     "Green Component" : "0.9333333",
     "Blue Component" : "0.9254902",
