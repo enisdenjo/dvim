@@ -43,3 +43,6 @@
 [submodule "pack/dvim/start/vim-peekaboo"]
 	path = pack/dvim/start/vim-peekaboo
 	url = git@github.com:junegunn/vim-peekaboo.git
+[submodule "pack/dvim/start/vim-visual-star-search"]
+	path = pack/dvim/start/vim-visual-star-search
+	url = git@github.com:bronson/vim-visual-star-search.git
