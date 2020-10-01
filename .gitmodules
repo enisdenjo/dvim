@@ -46,3 +46,6 @@
 [submodule "pack/dvim/start/vim-visual-star-search"]
 	path = pack/dvim/start/vim-visual-star-search
 	url = git@github.com:bronson/vim-visual-star-search.git
+[submodule "pack/dvim/opt/ale"]
+	path = pack/dvim/opt/ale
+	url = git@github.com:dense-analysis/ale.git

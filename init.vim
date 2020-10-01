@@ -52,6 +52,27 @@ set completeopt=menuone,noinsert
 " Avoid showing message extra message when using completion
 set shortmess+=c
 
+" ALE
+packadd ale
+let g:ale_sign_error = 'L' " in order to differentiate LSP and Linter problems
+let g:ale_disable_lsp = 1
+let g:ale_fix_on_save = 1
+let g:ale_fixers = {
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'javascript': ['prettier'],
+\   'javascriptreact': ['prettier'],
+\   'typescript': ['prettier'],
+\   'typescriptreact': ['prettier'],
+\   'go': ['goimports'],
+\}
+let g:ale_linters_explicit = 1
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\   'javascriptreact': ['eslint'],
+\   'typescript': ['eslint'],
+\   'typescriptreact': ['eslint'],
+\}
+
 " Yank to end of line
 map Y y$
 
