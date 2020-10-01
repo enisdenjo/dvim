@@ -1,6 +1,4 @@
 local nvim_lsp = require('nvim_lsp')
-local configs = require('nvim_lsp/configs')
-local util = require('nvim_lsp/util')
 local lsp_status = require('lsp-status')
 local diagnostic = require('diagnostic')
 local completion = require('completion')
@@ -38,6 +36,10 @@ nvim_lsp.cssls.setup{
   capabilities = lsp_status.capabilities,
 }
 nvim_lsp.gopls.setup{
+  on_attach = on_attach,
+  capabilities = lsp_status.capabilities,
+}
+nvim_lsp.sumneko_lua.setup{
   on_attach = on_attach,
   capabilities = lsp_status.capabilities,
 }
