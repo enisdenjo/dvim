@@ -41,8 +41,11 @@ autocmd CursorHold * lua vim.lsp.util.show_line_diagnostics()
 packadd vim-airline
 " TODO: integrate with lsp-status or diagnostic-nvim
 
-" Set completeopt to have a better completion experience
+" Completion
 set completeopt=menuone,noinsert
+let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
+let g:completion_matching_ignore_case = 1
+set wildignorecase
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
