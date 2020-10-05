@@ -14,6 +14,9 @@ set cursorline
 set autoread
 set splitright
 
+" Startify
+let g:startify_session_persistence = 1
+
 " Theme
 packadd dracula
 syntax on
