@@ -66,6 +66,7 @@ let g:ale_fixers = {
 \   'typescriptreact': ['prettier'],
 \   'go': ['goimports'],
 \   'xml': ['xmllint'],
+\   'html': ['prettier'],
 \}
 let g:ale_linters_explicit = 1
 let g:ale_linters = {
@@ -74,6 +75,7 @@ let g:ale_linters = {
 \   'typescript': ['eslint'],
 \   'typescriptreact': ['eslint'],
 \   'xml': ['xmllint'],
+\   'html': ['prettier'],
 \}
 
 " Yank to end of line
