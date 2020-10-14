@@ -20,7 +20,7 @@
   "editor.tabSize": 2,
   "editor.zenMode.hideTabs": true,
   "editor.zenMode.singleFile": true,
-  "files.exclude": [ "_esy", "node_modules", ".git" ],
+  "files.exclude": ["_esy", "node_modules", ".git"],
   "workbench.activityBar.visible": true,
   "workbench.editor.showTabs": true,
   "workbench.iconTheme": "vscode-icons",
@@ -28,7 +28,8 @@
   "workbench.sideBar.visible": true,
   "workbench.statusBar.visible": true,
   "workbench.tree.indent": 2,
-  "vim.useSystemClipboard": [ "yank" ],
+  "vim.useSystemClipboard": ["yank"],
   "editor.lineNumbers": "relative",
-  "ui.zoom": 1.3
+  "ui.zoom": 1.3,
+  "experimental.viml": ["map Y y$"]
 }
