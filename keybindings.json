@@ -1,0 +1,17 @@
+[
+  {
+    "key": "<S-Tab>",
+    "command": "selectPrevSuggestion",
+    "when": "editorTextFocus && suggestWidgetVisible"
+  },
+  {
+    "key": "<Tab>",
+    "command": "selectNextSuggestion",
+    "when": "editorTextFocus && suggestWidgetVisible"
+  },
+  {
+    "key": "<CR>",
+    "command": "acceptSelectedSuggestion",
+    "when": "suggestWidgetVisible && editorTextFocus"
+  }
+]
